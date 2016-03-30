@@ -77,9 +77,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="Employee.h" />
+    <ClInclude Include="HourlyEmployee.h" />
+    <ClInclude Include="SalaryEmployee.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="HourlyEmployee.cpp" />
+    <ClCompile Include="SalaryEmployee.cpp" />
     <ClCompile Include="test.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
